@@ -61,7 +61,7 @@ switch (Categoy) {
 
 */
 // example of switch case
-
+/*
 let fruit = prompt("What is your favorit fruit ? ");
 
 switch (fruit) {
@@ -81,6 +81,38 @@ switch (fruit) {
         console.log("Sorry, we don't have information about this fruit: " + fruit);
     break;
 }
+*/
+
+//f(n) = n^3 +2* n
+
+
+
+function sum(a, b) {
+    console.log(a, b);
+    console.log("Hallo: " + a);
+    return a + b;
+}
+
+//let result = sum(18, 17);
+//console.log(result);
+// console.log(sum(5, 7));
+// console.log(sum(3, 2));
+// console.log(sum(-10, 10));
+// console.log(sum(-5, 7));
+// console.log(sum(3, 103));
+
+
+let userName = "Safwan"; // Global variable
+
+function greeting(name1) { // name1: local parameter 
+    let message = "Hello, "; // local variable
+    console.log(message + name1);
+}
+
+// console.log(name1); // Uncaught ReferenceError: name1 is not defined
+greeting("Ahmad");
+
+
 
 
 
